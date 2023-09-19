@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3Y_2324_EDP_Demo_Enigma3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="500" SizeToContent="WidthAndHeight" KeyUp="Window_KeyUp">
+        Title="MainWindow" Height="300" Width="500" SizeToContent="WidthAndHeight" KeyUp="Window_KeyUp" KeyDown="Window_KeyDown">
     <Grid>
         <Label x:Name="lblInput" Content="Just type whatever..." HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="24" Width="490" HorizontalContentAlignment="Center"/>
         <Rectangle  Stroke="Black" VerticalAlignment="Top" Margin="490,250,0,0" Width="10" Height="10" HorizontalAlignment="Left" Opacity="0"/>
+        <Label x:Name="lblDebug" Content="AUGH" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="206,80,0,0" Width="64"/>
 
     </Grid>
 </Window>
